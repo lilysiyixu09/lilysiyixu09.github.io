@@ -240,8 +240,8 @@ a {
   min-height: 360px;
   /* height: clamp(480px, 58vw, 960px);*/
   display: grid;
-  place-items: center;
-  background: transparent
+  place-items: start center;
+  background: transparent;
   /*background:
     linear-gradient(90deg, rgba(0, 0, 0, 0.08) 1px, transparent 1px),
     linear-gradient(rgba(0, 0, 0, 0.08) 1px, transparent 1px),
@@ -255,7 +255,7 @@ a {
 .project-hero-image video {
   width: 100%;
   height: 100%;
-  object-fit: contain;    /* 关键属性 */
+  object-fit: contain; 
 }
 
 .project-hero-image-right {
@@ -273,7 +273,7 @@ a {
 .project-hero-image-left-small img {
   width: 100%;
   height: 100%;
-  object-fit: contain;    /* 关键属性 */
+  object-fit: contain;
 }
 
 .project-hero-image-right-tall {
@@ -290,7 +290,7 @@ a {
 .project-hero-image-right-tall img {
   width: 100%;
   height: 100%;
-  object-fit: contain;    /* 关键属性 */
+  object-fit: contain; 
 }
 
 .project-hero-image-tall {
@@ -328,7 +328,7 @@ a {
 .project-hero-image-right-small img {
   width: 100%;
   height: 100%;
-  object-fit: contain;    /* 关键属性 */
+  object-fit: contain; 
 }
 
 
@@ -353,9 +353,9 @@ a {
 .project-video video {
   display: block;
   width: 100%;
-  height: 100%;
+  /*height: 100%;*/
   object-fit: contain;
-  border-radius: 25px;
+  /*border-radius: 25px;*/
   overflow: hidden;
 }
 
